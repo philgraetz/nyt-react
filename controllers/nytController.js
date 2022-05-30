@@ -2,11 +2,11 @@ const db = require("../models");
 const axios = require("axios");
 const url = require('url');
 
-const API_KEY = "f66b4dcfc0ba40338c59e927ed7c9a48";
+const API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
 const NYT_URL = "https://api.nytimes.com/svc/search/v2/articlesearch.json";
 
 // Example:
-// https://api.nytimes.com/svc/search/v2/articlesearch.json?api-key=f66b4dcfc0ba40338c59e927ed7c9a48&q=Nuclear Subs&begin_date=19800101&end_date=19901231
+// https://api.nytimes.com/svc/search/v2/articlesearch.json?api-key=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&q=Nuclear Subs&begin_date=19800101&end_date=19901231
 
 module.exports = {
     // Return a list of articles based on search criteria
